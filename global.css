@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav a{
+    font-size: 17px;
+    color: black;
+}
+
+nav{
+    background-color: #dad7cd;
+}
+
+footer{
+    background-color: #dad7cd;
+}
