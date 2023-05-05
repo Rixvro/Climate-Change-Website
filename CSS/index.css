@@ -21,11 +21,3 @@ body, html{
     transform: translate(-50%, -50%);
     color: white;
 }
-
-.content{
-    background-color: #a3b18a;
-}
-
-.content .row{
-    background-color: #dad7cd;
-}
