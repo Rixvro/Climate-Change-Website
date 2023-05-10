@@ -1,7 +1,7 @@
 
 :root {
-    --body-bg-color: bisque;
-    --container-bg-color: aquamarine;
+    --body-bg-color: #344E41;
+    --container-bg-color: #588157;
   }
   
 
@@ -60,7 +60,7 @@
   }
   
   .btn:hover:not([disabled]){
-      background: black;
+      background: #a3b18a;
       color: whitesmoke;
   }
   
