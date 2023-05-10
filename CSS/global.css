@@ -1,26 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.nav a{
+.nav a {
     font-size: 17px;
     color: black;
 }
 
-nav{
+nav {
     background-color: #dad7cd;
 }
 
-footer{
+footer {
     background-color: #dad7cd;
 }
 
-.content{
+.content {
     background-color: #a3b18a;
+    border-radius: 15px;
 }
 
-.content .row{
+.content .row {
     background-color: #dad7cd;
 }
