@@ -11,18 +11,53 @@ body {
     margin: 0;
 }
 
-main {
+.carousel{
+    padding-top: 20px;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.carousel p, h5{
+    color: black;
+    font-size: 20px;
+}
+
+.cards {
     padding: 3rem 0;
     width: 90%;
     max-width: 1200px;
     margin: auto;
     display: flex;
-    flex-direction: column;
 }
 
 .card {
     background-color: #dad7cd;
-    border: solid 4px #588157;
-    margin: 0 1% 40px 1%;
+    border: solid 3px #588157;
+    margin: 40px 1% 0 1%;
     vertical-align: top;
+    padding: 20px;
 }   
+
+#card1{
+    background-color: #588157;
+    color: whitesmoke;
+}
+
+
+.lowerContent{
+    padding: 0;
+    text-align: center;
+}
+
+.moreCards{
+    padding: 1rem 0;
+    width: 90%;
+    max-width: 1206px;
+    margin: auto auto 50px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    font-size: 20px;
+}
