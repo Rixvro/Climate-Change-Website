@@ -16,3 +16,11 @@ nav{
 footer{
     background-color: #dad7cd;
 }
+
+.content{
+    background-color: #a3b18a;
+}
+
+.content .row{
+    background-color: #dad7cd;
+}

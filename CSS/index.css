@@ -4,7 +4,7 @@ body, html{
 
 .hero-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1552799446-159ba9523315?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
-    height : 90%;
+    height : 93%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,12 +20,4 @@ body, html{
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-}
-
-.content{
-    background-color: #a3b18a;
-}
-
-.content .row{
-    background-color: #dad7cd;
 }
