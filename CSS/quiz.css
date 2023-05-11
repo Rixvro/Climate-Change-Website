@@ -1,9 +1,22 @@
 
 :root {
-    --body-bg-color: #344E41;
+  /* #588157 */
+    --body-bg-color: #a3b18a;
     --container-bg-color: #588157;
+    --nav-bg-color:#dad7cd;
   }
   
+  nav{
+    background-color: var(--nav-bg-color);
+  }
+
+  footer{
+    background-color: var(--nav-bg-color);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
 
   * {
     margin: 0;
@@ -15,13 +28,14 @@
     background-color: var(--body-bg-color);
   }
   
-  .container {
+  .quiz-container {
     background-color: var(--container-bg-color);
     width: 90%;
     max-width: 800px;
     margin: 100px auto 0;
     padding: 30px;
     border-radius: 20px;
+    color: whitesmoke;
   }
   
 
@@ -60,8 +74,8 @@
   }
   
   .btn:hover:not([disabled]){
-      background: #a3b18a;
-      color: whitesmoke;
+      background-color: #9BA4B5;
+      color:black;
   }
   
   .correct{
