@@ -79,9 +79,11 @@
   }
   
   .correct{
-      background: palegreen;
+      background: palegreen !important;
+      color: black !important;
   }
   
   .incorrect{
-      background: salmon;
+      background: salmon !important;
+      color: black !important;
   }
